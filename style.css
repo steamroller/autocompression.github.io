@@ -34,6 +34,9 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }*/
+.top{
+    height: 102px;
+}
 
 html{
     
@@ -254,7 +257,7 @@ footer{
     text-transform: uppercase;
     text-align: center;
     width: 200px;
-    margin: 400px;
+    margin: 480px;
     color: white;
     font-size: 70px;
 }
