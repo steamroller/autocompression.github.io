@@ -31,6 +31,7 @@
     border-radius: 50px;
     padding: 5px 20px 0px 20px;
     font-size: 25px;
+    animation: pulse 3s;
 }
 
 
@@ -82,4 +83,14 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #0e305e;
+}
+
+
+@keyframes pulse{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
