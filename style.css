@@ -156,6 +156,7 @@ html{
     margin-left: 790px;
     margin-right: 790px;
     height: 190px;
+    animation: pulse 3s;
     
 }
 
@@ -168,18 +169,21 @@ html{
     height: 200px;
     margin-left: 310px;
     margin-top: 70px;
+    animation: pulse 4s;
 }
 .download-zone-button{
     width: 230px;
     height: 230px;
     margin-top: 75px;
     margin-left: 275px;
+    animation: pulse 4s;
 }
 .dev-zone-button{
     width: 230px;
     height: 230px;
     margin-top: 75px;
     margin-left: 245px;
+    animation: pulse 3s;
 }
 
 
@@ -188,6 +192,7 @@ html{
     margin-right: 790px;
     height: 190px;
     padding-top: 50px;
+    animation: pulse 3s;
 }
 .bottom-part{
     height: 240px;
@@ -271,4 +276,13 @@ footer{
 }
 .footer{
     margin-bottom: 0px;
+}
+
+@keyframes pulse{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
